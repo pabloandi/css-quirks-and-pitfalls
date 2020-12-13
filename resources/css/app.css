@@ -1,37 +1,13 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
-body {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-
+.clamp.two-lines {
+    -webkit-line-clamp: 2;
 }
 
-.card {
-    width: 300px;
-    background-color: white;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    padding: 2rem 1rem;
-    border-radius: 14px;
-}
-
-
-
-.parent {
-    background-color: red;
-    min-height: 2 00px;
-    display: flex;
-    flex-direction: column;
-}
-
-.child {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: yellow;
-    flex: 1;
+.clamp.three-lines {
+    -webkit-line-clamp: 3;
 }
