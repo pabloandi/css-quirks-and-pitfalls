@@ -14,19 +14,17 @@
         <link rel="stylesheet" href="/css/app.css">
 
     </head>
-   <body class="py-4">
-       <div class="max-w-lg mx-auto bg-gray-300 p-4">
-           @foreach (range(1,10) as $i)
-               <div class="bg-white p-4 rounded mb-4">
-                   <h1 class="font-bold mb-2 text-lg">A new post</h1>
-                   <p class="text-sm clamp two-lines lg:three-lines">
-                       @php
-                           echo str_repeat('Lorem ipsum dolor, sit amet consectetur adipisicing elit. ', $i)
-                       @endphp
-                   </p>
+   <body>
 
-               </div>
-           @endforeach
-       </div>
-   </body>
+
+
+        <section class="banner flex items-center justify-center">
+            <img src="/images/estrella.png" alt="" class="absolute w-20">
+        </section>
+
+
+        <h1>Hi again</h1>
+
+
+    </body>
 </html>

@@ -1,13 +1,13 @@
-.clamp {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+html, body {
+    background-color: green;
 }
 
-.clamp.two-lines {
-    -webkit-line-clamp: 2;
-}
-
-.clamp.three-lines {
-    -webkit-line-clamp: 3;
+.banner {
+    background: url('/images/test.png') repeat;
+    height: 800px;
+    width: auto;
+    mask: url('/svg/dibujo.svg');
+    mask-repeat: repeat;
+    mask-size: 100px 100px;
+    mask-position: bottom;
 }
